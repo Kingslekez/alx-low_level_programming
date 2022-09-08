@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <unistd.h>
 /**
  
  * main - the program starts and eds with main and print tovthe standard error
- * Return: returns 1 when error
+ *
+ * * Return: returns 1 when error
  */
 
 int main(void)

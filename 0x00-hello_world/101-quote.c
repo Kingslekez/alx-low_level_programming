@@ -9,12 +9,11 @@ int main(void)
 
 {
 
-		char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char n[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
 
 
-			write(2, str1, 59);
-
-				return (1);
+				fprintf(stderr, "%s\n", n);
+	return (1);
 
 }
